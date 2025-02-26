@@ -30,6 +30,7 @@ ul{
 
 li{
     padding: 0.5rem;
+    font-size: 0.9rem;
 }
 }
 
@@ -39,3 +40,24 @@ li{
     background-color: rgb(0, 162, 255);
 }
 
+.screen-grid-container{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: auto;
+    gap: 0.5rem;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.screen{
+    max-width: fit-content;
+    background-color: rgba(242, 242, 242, 0.87);
+    padding: 2rem;
+    text-align: left;
+    border-radius: 2rem;
+}
+
+#name-screen{
+    font-size: small;
+    color: grey;
+}

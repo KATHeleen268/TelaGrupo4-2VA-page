@@ -39,9 +39,12 @@ h3{
     
 }
 
+#first{
+    padding-left: 1.1rem;
+}
+
 ul{
   list-style: none;
-  padding-left: 1rem;
   text-align: left;
 }
 
